@@ -36,3 +36,13 @@ export interface BannerNotify extends
 
 
 
+
+export interface LocalSettings{
+  theme: "dark" | "light"
+  lang: "en" | "ru"
+};
+
+export interface ServerSettings{
+
+};
+
