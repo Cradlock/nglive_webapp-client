@@ -46,3 +46,46 @@ export interface ServerSettings{
 
 };
 
+
+
+
+
+export type MediaStatus = 'idle' | 'loading' | 'success' | 'error';
+export type MediaType = 'image' | 'video' | 'doc' | 'avatar';
+
+export interface Media{
+  id?: string | number,
+  type: MediaType,
+  status: MediaStatus,
+  src?: string,
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
